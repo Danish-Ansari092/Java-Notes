@@ -69,9 +69,19 @@ public class practiseSet06 {
         }
         System.out.println(Arrays.toString(arr));
         */
-        // Question 5 WAP to find maximum and minimum element in an array
-       int [] prices = {30,40,50,60,70};
-
+                int [] arr = {1,2,3,4,5,6};
+        int l = arr.length;
+        int n = Math.floorDiv(l, 2);
+        int temp;
+        for(int i = 0; i < n; i++) {
+            //Swap logic
+            temp = arr[i];
+            arr[i] = arr[l - i - 1];
+            arr[l-i-1] = temp;
+        }
+        for (int element:arr ){
+            System.out.print(element + " ");
+        }
     }
 }
 
