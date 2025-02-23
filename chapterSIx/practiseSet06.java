@@ -58,7 +58,7 @@ public class practiseSet06 {
         */
 
         // Question 4 Create a program to reverse an array
-                           // doubt why this not print index value of 1
+                        // doubt why this not print index value of 1
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the elements in array: ");
